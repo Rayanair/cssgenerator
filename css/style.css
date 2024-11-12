@@ -1,0 +1,323 @@
+.col-1 {
+  width: 10px;
+  height: 20px;
+}
+
+.col-1:nth-child(1) {
+  background-color: red;
+}
+
+.col-1:nth-child(2) {
+  background-color: blue;
+}
+
+.col-1:nth-child(3) {
+  background-color: rgb(100, 100, 100);
+}
+
+.col-1:nth-child(4) {
+  background-color: rgb(255, 251, 0);
+}
+
+.col-1:nth-child(5) {
+  background-color: rgb(0, 255, 0);
+}
+
+.col-1:nth-child(6) {
+  background-color: rgb(0, 255, 251);
+}
+
+.col-1:nth-child(7) {
+  background-color: rgb(140, 0, 255);
+}
+
+.col-1:nth-child(8) {
+  background-color: rgb(255, 0, 238);
+}
+
+.col-1:nth-child(9) {
+  background-color: rgb(77, 95, 141);
+}
+
+.col-1:nth-child(10) {
+  background-color: rgb(115, 40, 72);
+}
+
+.col-1:nth-child(11) {
+  background-color: rgb(138, 142, 65);
+}
+
+.col-1:nth-child(12) {
+  background-color: rgb(59, 157, 121);
+}
+
+.col-2 {
+  width: 20px;
+  height: 40px;
+}
+
+.col-2:nth-child(1) {
+  background-color: red;
+}
+
+.col-2:nth-child(2) {
+  background-color: blue;
+}
+
+.col-2:nth-child(3) {
+  background-color: rgb(100, 100, 100);
+}
+
+.col-2:nth-child(4) {
+  background-color: rgb(255, 251, 0);
+}
+
+.col-2:nth-child(5) {
+  background-color: rgb(0, 255, 0);
+}
+
+.col-2:nth-child(6) {
+  background-color: rgb(0, 255, 251);
+}
+
+.col-2:nth-child(7) {
+  background-color: rgb(140, 0, 255);
+}
+
+.col-2:nth-child(8) {
+  background-color: rgb(255, 0, 238);
+}
+
+.col-2:nth-child(9) {
+  background-color: rgb(77, 95, 141);
+}
+
+.col-2:nth-child(10) {
+  background-color: rgb(115, 40, 72);
+}
+
+.col-2:nth-child(11) {
+  background-color: rgb(138, 142, 65);
+}
+
+.col-2:nth-child(12) {
+  background-color: rgb(59, 157, 121);
+}
+
+.col-3 {
+  width: 30px;
+  height: 60px;
+}
+
+.col-3:nth-child(1) {
+  background-color: red;
+}
+
+.col-3:nth-child(2) {
+  background-color: blue;
+}
+
+.col-3:nth-child(3) {
+  background-color: rgb(100, 100, 100);
+}
+
+.col-3:nth-child(4) {
+  background-color: rgb(255, 251, 0);
+}
+
+.col-3:nth-child(5) {
+  background-color: rgb(0, 255, 0);
+}
+
+.col-3:nth-child(6) {
+  background-color: rgb(0, 255, 251);
+}
+
+.col-3:nth-child(7) {
+  background-color: rgb(140, 0, 255);
+}
+
+.col-3:nth-child(8) {
+  background-color: rgb(255, 0, 238);
+}
+
+.col-3:nth-child(9) {
+  background-color: rgb(77, 95, 141);
+}
+
+.col-3:nth-child(10) {
+  background-color: rgb(115, 40, 72);
+}
+
+.col-3:nth-child(11) {
+  background-color: rgb(138, 142, 65);
+}
+
+.col-3:nth-child(12) {
+  background-color: rgb(59, 157, 121);
+}
+
+.col-4 {
+  width: 40px;
+  height: 80px;
+}
+
+.col-4:nth-child(1) {
+  background-color: red;
+}
+
+.col-4:nth-child(2) {
+  background-color: blue;
+}
+
+.col-4:nth-child(3) {
+  background-color: rgb(100, 100, 100);
+}
+
+.col-4:nth-child(4) {
+  background-color: rgb(255, 251, 0);
+}
+
+.col-4:nth-child(5) {
+  background-color: rgb(0, 255, 0);
+}
+
+.col-4:nth-child(6) {
+  background-color: rgb(0, 255, 251);
+}
+
+.col-4:nth-child(7) {
+  background-color: rgb(140, 0, 255);
+}
+
+.col-4:nth-child(8) {
+  background-color: rgb(255, 0, 238);
+}
+
+.col-4:nth-child(9) {
+  background-color: rgb(77, 95, 141);
+}
+
+.col-4:nth-child(10) {
+  background-color: rgb(115, 40, 72);
+}
+
+.col-4:nth-child(11) {
+  background-color: rgb(138, 142, 65);
+}
+
+.col-4:nth-child(12) {
+  background-color: rgb(59, 157, 121);
+}
+
+.col-5 {
+  width: 50px;
+  height: 100px;
+}
+
+.col-5:nth-child(1) {
+  background-color: red;
+}
+
+.col-5:nth-child(2) {
+  background-color: blue;
+}
+
+.col-5:nth-child(3) {
+  background-color: rgb(100, 100, 100);
+}
+
+.col-5:nth-child(4) {
+  background-color: rgb(255, 251, 0);
+}
+
+.col-5:nth-child(5) {
+  background-color: rgb(0, 255, 0);
+}
+
+.col-5:nth-child(6) {
+  background-color: rgb(0, 255, 251);
+}
+
+.col-5:nth-child(7) {
+  background-color: rgb(140, 0, 255);
+}
+
+.col-5:nth-child(8) {
+  background-color: rgb(255, 0, 238);
+}
+
+.col-5:nth-child(9) {
+  background-color: rgb(77, 95, 141);
+}
+
+.col-5:nth-child(10) {
+  background-color: rgb(115, 40, 72);
+}
+
+.col-5:nth-child(11) {
+  background-color: rgb(138, 142, 65);
+}
+
+.col-5:nth-child(12) {
+  background-color: rgb(59, 157, 121);
+}
+
+.col-6 {
+  width: 60px;
+  height: 120px;
+}
+
+.col-6:nth-child(1) {
+  background-color: red;
+}
+
+.col-6:nth-child(2) {
+  background-color: blue;
+}
+
+.col-6:nth-child(3) {
+  background-color: rgb(100, 100, 100);
+}
+
+.col-6:nth-child(4) {
+  background-color: rgb(255, 251, 0);
+}
+
+.col-6:nth-child(5) {
+  background-color: rgb(0, 255, 0);
+}
+
+.col-6:nth-child(6) {
+  background-color: rgb(0, 255, 251);
+}
+
+.col-6:nth-child(7) {
+  background-color: rgb(140, 0, 255);
+}
+
+.col-6:nth-child(8) {
+  background-color: rgb(255, 0, 238);
+}
+
+.col-6:nth-child(9) {
+  background-color: rgb(77, 95, 141);
+}
+
+.col-6:nth-child(10) {
+  background-color: rgb(115, 40, 72);
+}
+
+.col-6:nth-child(11) {
+  background-color: rgb(138, 142, 65);
+}
+
+.col-6:nth-child(12) {
+  background-color: rgb(59, 157, 121);
+}
+
+.row {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

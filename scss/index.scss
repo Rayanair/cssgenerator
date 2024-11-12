@@ -1,0 +1,354 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+    margin: 100px;
+}
+/* **************** grill ********* */
+.container{
+    display: block;
+    max-width: 100%;
+}
+.container-fluid {
+    display: block;
+    width: 100%;
+}
+.row{
+    display: flex;
+}
+
+@for $i from 1 through 9 {
+
+    @for $z from 1 through 9 {
+    .col-#{$i}-#{$z} {
+        width: 30px*$z;
+        height: 30px;
+        background-color: rgb(174, 153, 153);
+        border: 1px solid gray;
+    }
+}
+}
+/* **************** remplissage ********* */
+@for $i from 1 through 9 {
+
+@each $color in red, blue,green,yellow,violet,orange,black,white,aqua,grey,brown{
+    .btn-#{$color}-#{$i}{
+        background-color: $color;
+        color: rgb(251, 251, 251);
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        transition: 0.5s;
+    }
+    .btn-#{$color}-#{$i}:active{
+        border-radius: 10px;
+        box-shadow: 10px 10px 10px black;
+        transition: 0.5s;
+    }
+    .btn-#{$color}-#{$i}:disabled{
+        background-color: rgb(72, 72, 72);
+        color: red;
+        border-radius: 0;
+    }
+}
+
+}
+
+.img-responsive {
+    width: 100%;
+}
+.img-rounded{
+    border-radius: 5%;
+}
+.img-circle{
+    clip-path:circle();
+}
+
+.img-thumbnail{
+    border: 3px solid rgb(81, 81, 81)
+}
+
+.img-blur{
+    filter: blur(20px);
+}
+
+.text-muted{
+    color: grey;  
+}
+
+.text-primary{
+    color: rgb(60, 86, 153);
+}
+
+.text-success{
+    color: rgb(54, 130, 46);
+}
+
+.text-info{
+    color: rgb(28, 114, 116);
+}
+
+.text-warning{
+    color: rgb(145, 131, 59);
+}
+
+.text-error{
+    color: rgb(148, 48, 48);
+}
+
+.bg-muted{
+
+    background-color:  rgb(206, 201, 201);  
+}
+
+.bg-primary{
+    background-color: rgb(148, 169, 222);
+}
+
+.bg-success{
+    background-color:  rgb(151, 211, 144);
+}
+
+.bg-info{
+    background-color:  rgb(50, 183, 185);
+}
+
+.bg-warning{
+    background-color:  rgb(219, 207, 149);
+}
+
+.bg-error{
+    background-color:  rgb(224, 147, 147);
+}
+
+
+.alert-success{
+    border-radius: 10px;
+    padding: 10px;
+    color: green;
+    background-color: rgb(133, 209, 125);
+}
+
+.alert-info{
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(6, 76, 117);
+    background-color: rgb(114, 165, 194);
+}
+
+.alert-warning{
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(140, 134, 23);
+    background-color: rgb(210, 206, 139);
+}
+
+.alter-danger{
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(136, 30, 30);
+    background-color: rgb(207, 121, 121);
+}
+
+/* **************** masquer ********* */
+@media only screen and (max-width: 470px) and (min-width: 0px){
+    .visible-phone{
+        display: block;
+    }
+    .hidden-phone{
+        display: none;
+    }
+    .visible-pc{
+        display: none;
+    }
+  }
+
+
+
+  @media only screen and (min-width: 471px){
+    .visible-phone{
+        display: none;
+    }
+    .hidden-pc{
+        display: none;
+    }
+    .visible-pc{
+        display: block;
+    }
+  }
+
+@media print {
+    .visible-print{
+        display: block !important;
+    }
+    .hidden-print{
+        display: none !important;
+    }
+}
+/* **************** navbar ********* */
+.navbar{
+    margin-bottom: 1%;
+    margin-top: 1%;
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    width: 60%;
+    margin-left: 20%;
+}
+.navbar-brand{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    font-size: 1.1em;
+}
+.collapse{
+    display: flex;
+    width: 100%;
+}
+.navbar-nav{
+    padding-left: 0;
+    padding-top: 2%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(108, 108, 108);
+}
+.nav-link:hover {
+    text-decoration: none;
+    color: rgb(1, 1, 1);
+}
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+}
+.form-inline{
+    padding-left: 10%;
+    width: 50%;
+    margin: 3%;
+}
+.navbar-brand{
+    padding: 3%;
+}
+.form-inline .btn{
+    border-radius: 5px;
+    background: none;
+    padding: 10px;
+    border: 1px solid rgb(80, 159, 79);
+    color: rgb(85, 160, 84);
+}
+.form-inline .form-control{
+    border-radius: 5px;
+    background: none;
+    padding: 10px;
+    border: 1px solid gray;
+    color: gray;
+}
+
+.active{
+    .nav-link {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+
+  .dropdown-menu {
+    display: none;
+  }
+  
+  .dropdown:active{
+    .dropdown-menu {
+        display: block !important;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        width: 5%;
+        position:absolute;
+      }
+  }
+  .dropdown-menu:hover {
+    display: block !important;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 5%;
+    position:absolute;
+  }
+  
+  .dropdown-item{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .disabled{
+    color: rgb(163, 163, 163);
+  }
+  .disabled:hover{
+    color: rgb(163, 163, 163);
+    cursor:default;
+  }
+  /* **************** popins ********* */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    .modal-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      max-width: 80%;
+      max-height: 80%;
+      overflow-y: auto;
+      h2 {
+        margin-top: 0;
+      }
+      .popin-dismiss {
+        display: block;
+        margin-top: 20px;
+        margin-left: auto;
+      }
+    }
+  }
+ /* **************** ONGLETS ********* */
+ .tab-container {
+    .tab-list {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      
+      li {
+        margin-right: 20px;
+        cursor: pointer;
+        &.active {
+          font-weight: bold;
+        }
+      }
+    }
+    
+    .tab-content {
+      .tab-pane {
+        display: none;
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+ /* **************** INFOBULLE ********* */
+ .tip{
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgb(0, 0, 0,0.6);
+    padding: 20px;
+    text-align: center;
+ }

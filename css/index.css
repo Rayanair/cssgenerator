@@ -1,0 +1,2972 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: bisque;
+  margin: 100px;
+}
+
+/* **************** grill ********* */
+.container {
+  display: block;
+  max-width: 100%;
+}
+
+.container-fluid {
+  display: block;
+  width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.col-1-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-1-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-2-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-3-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-4-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-5-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-6-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-7-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-8-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-1 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-2 {
+  width: 60px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-3 {
+  width: 90px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-4 {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-5 {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-6 {
+  width: 180px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-7 {
+  width: 210px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-8 {
+  width: 240px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+.col-9-9 {
+  width: 270px;
+  height: 30px;
+  background-color: rgb(174, 153, 153);
+  border: 1px solid gray;
+}
+
+/* **************** remplissage ********* */
+.btn-red-1 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-1 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-1 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-1 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-1 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-1 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-1 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-1 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-1 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-1 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-1 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-1:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-1:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-2 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-2 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-2 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-2 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-2 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-2 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-2 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-2 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-2 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-2 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-2 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-2:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-2:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-3 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-3 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-3 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-3 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-3 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-3 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-3 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-3 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-3 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-3 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-3 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-3:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-3:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-4 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-4 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-4 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-4 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-4 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-4 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-4 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-4 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-4 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-4 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-4 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-4:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-4:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-5 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-5 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-5 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-5 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-5 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-5 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-5 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-5 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-5 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-5 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-5 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-5:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-5:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-6 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-6 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-6 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-6 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-6 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-6 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-6 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-6 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-6 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-6 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-6 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-6:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-6:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-7 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-7 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-7 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-7 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-7 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-7 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-7 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-7 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-7 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-7 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-7 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-7:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-7:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-8 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-8 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-8 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-8 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-8 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-8 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-8 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-8 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-8 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-8 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-8 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-8:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-8:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-red-9 {
+  background-color: red;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-red-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-red-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-blue-9 {
+  background-color: blue;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-blue-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-blue-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-green-9 {
+  background-color: green;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-green-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-green-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-yellow-9 {
+  background-color: yellow;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-yellow-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-yellow-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-violet-9 {
+  background-color: violet;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-violet-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-violet-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-orange-9 {
+  background-color: orange;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-orange-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-orange-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-black-9 {
+  background-color: black;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-black-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-black-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-white-9 {
+  background-color: white;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-white-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-white-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-aqua-9 {
+  background-color: aqua;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-aqua-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-aqua-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-grey-9 {
+  background-color: grey;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-grey-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-grey-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.btn-brown-9 {
+  background-color: brown;
+  color: rgb(251, 251, 251);
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  transition: 0.5s;
+}
+
+.btn-brown-9:active {
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px black;
+  transition: 0.5s;
+}
+
+.btn-brown-9:disabled {
+  background-color: rgb(72, 72, 72);
+  color: red;
+  border-radius: 0;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.img-rounded {
+  border-radius: 5%;
+}
+
+.img-circle {
+  clip-path: circle();
+}
+
+.img-thumbnail {
+  border: 3px solid rgb(81, 81, 81);
+}
+
+.img-blur {
+  filter: blur(20px);
+}
+
+.text-muted {
+  color: grey;
+}
+
+.text-primary {
+  color: rgb(60, 86, 153);
+}
+
+.text-success {
+  color: rgb(54, 130, 46);
+}
+
+.text-info {
+  color: rgb(28, 114, 116);
+}
+
+.text-warning {
+  color: rgb(145, 131, 59);
+}
+
+.text-error {
+  color: rgb(148, 48, 48);
+}
+
+.bg-muted {
+  background-color: rgb(206, 201, 201);
+}
+
+.bg-primary {
+  background-color: rgb(148, 169, 222);
+}
+
+.bg-success {
+  background-color: rgb(151, 211, 144);
+}
+
+.bg-info {
+  background-color: rgb(50, 183, 185);
+}
+
+.bg-warning {
+  background-color: rgb(219, 207, 149);
+}
+
+.bg-error {
+  background-color: rgb(224, 147, 147);
+}
+
+.alert-success {
+  border-radius: 10px;
+  padding: 10px;
+  color: green;
+  background-color: rgb(133, 209, 125);
+}
+
+.alert-info {
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(6, 76, 117);
+  background-color: rgb(114, 165, 194);
+}
+
+.alert-warning {
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(140, 134, 23);
+  background-color: rgb(210, 206, 139);
+}
+
+.alter-danger {
+  border-radius: 10px;
+  padding: 20px;
+  color: rgb(136, 30, 30);
+  background-color: rgb(207, 121, 121);
+}
+
+/* **************** masquer ********* */
+@media only screen and (max-width: 470px) and (min-width: 0px) {
+  .visible-phone {
+    display: block;
+  }
+  .hidden-phone {
+    display: none;
+  }
+  .visible-pc {
+    display: none;
+  }
+}
+@media only screen and (min-width: 471px) {
+  .visible-phone {
+    display: none;
+  }
+  .hidden-pc {
+    display: none;
+  }
+  .visible-pc {
+    display: block;
+  }
+}
+@media print {
+  .visible-print {
+    display: block !important;
+  }
+  .hidden-print {
+    display: none !important;
+  }
+}
+/* **************** navbar ********* */
+.navbar {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  display: flex;
+  background-color: rgb(248, 248, 248);
+  width: 60%;
+  margin-left: 20%;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link {
+  font-size: 1.1em;
+}
+
+.collapse {
+  display: flex;
+  width: 100%;
+}
+
+.navbar-nav {
+  padding-left: 0;
+  padding-top: 2%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(108, 108, 108);
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: rgb(1, 1, 1);
+}
+
+.nav-item {
+  text-decoration: none;
+  list-style: none;
+}
+
+.form-inline {
+  padding-left: 10%;
+  width: 50%;
+  margin: 3%;
+}
+
+.navbar-brand {
+  padding: 3%;
+}
+
+.form-inline .btn {
+  border-radius: 5px;
+  background: none;
+  padding: 10px;
+  border: 1px solid rgb(80, 159, 79);
+  color: rgb(85, 160, 84);
+}
+
+.form-inline .form-control {
+  border-radius: 5px;
+  background: none;
+  padding: 10px;
+  border: 1px solid gray;
+  color: gray;
+}
+
+.active .nav-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown:active .dropdown-menu {
+  display: block !important;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 5%;
+  position: absolute;
+}
+
+.dropdown-menu:hover {
+  display: block !important;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 5%;
+  position: absolute;
+}
+
+.dropdown-item {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+.disabled {
+  color: rgb(163, 163, 163);
+}
+
+.disabled:hover {
+  color: rgb(163, 163, 163);
+  cursor: default;
+}
+
+/* **************** popins ********* */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.modal .modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+}
+.modal .modal-content h2 {
+  margin-top: 0;
+}
+.modal .modal-content .popin-dismiss {
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+/* **************** ONGLETS ********* */
+.tab-container .tab-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.tab-container .tab-list li {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.tab-container .tab-list li.active {
+  font-weight: bold;
+}
+.tab-container .tab-content .tab-pane {
+  display: none;
+}
+.tab-container .tab-content .tab-pane.active {
+  display: block;
+}
+
+/* **************** INFOBULLE ********* */
+.tip {
+  border-radius: 10px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=index.css.map */

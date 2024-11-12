@@ -1,0 +1,64 @@
+// $a:1;
+// @each $nb in red, blue, rgb(100, 100, 100), rgb(255, 251, 0), rgb(0, 255, 0),rgb(0, 255, 251),rgb(140, 0, 255),rgb(255, 0, 238),rgb(77, 95, 141),rgb(115, 40, 72),rgb(138, 142, 65),rgb(59, 157, 121){
+//     .col-1:nth-child(#{$a}){
+//         margin: 1%;
+//         width: 150px;
+//         height: 20px;
+//         background-color: #{$nb};
+//     }
+//     $a:$a+1;
+// }
+
+@for $i from 1 through 6 {
+    .col-#{$i} {
+        width: 10px*$i;
+        height: 20px*$i;
+    }
+    $a:1;
+    @each $nb in red, blue, rgb(100, 100, 100), rgb(255, 251, 0), rgb(0, 255, 0),rgb(0, 255, 251),rgb(140, 0, 255),rgb(255, 0, 238),rgb(77, 95, 141),rgb(115, 40, 72),rgb(138, 142, 65),rgb(59, 157, 121){
+    .col-#{$i}:nth-child(#{$a}){
+        background-color: #{$nb};
+    }
+    $a:$a+1;
+}
+}
+
+.row{
+    display: flex;
+}
+
+
+// @for $i from 1 through 6 {
+//     .col-#{$i} {
+//         width: 100px*$i;
+//     }
+//     $a:1;
+//     @each $nb in red, blue, rgb(100, 100, 100), rgb(255, 251, 0), rgb(0, 255, 0),rgb(0, 255, 251),rgb(140, 0, 255),rgb(255, 0, 238),rgb(77, 95, 141),rgb(115, 40, 72),rgb(138, 142, 65),rgb(59, 157, 121){
+//     .col-#{$i}:nth-child(#{$a}){
+//         margin: 1%;
+//         width: 150px;
+//         height: 20px;
+//         background-color: #{$nb};
+//     }
+//     $a:$a+1;
+// }
+// }
+
+//   @mixin col-3($theme: DarkGray) {
+//     background: $theme;
+//     width: 100px;
+//     height: 300px;
+//     margin-left: 1%;
+//   }
+//   @mixin col-4($theme: DarkGray) {
+//     background: $theme;
+//     width: 100px;
+//     height: 300px;
+//     margin-left: 1%;
+//   }
+//   @mixin col-6($theme: DarkGray) {
+//     background: $theme;
+//     width: 100px;
+//     height: 300px;
+//     margin-left: 1%;
+//   }
